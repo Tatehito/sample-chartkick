@@ -1,0 +1,34 @@
+<h1>Chartkick Sample</h1>
+
+<h2>Chart.js</h2>
+<%= line_chart @char, width: "500px", height: "300px", adapter: "chartjs" %>
+
+<h2>Google Chart</h2>
+<%= line_chart @char, width: "500px", height: "300px", adapter: "google" %>
+
+<h2>highcharts</h2>
+<%= line_chart @char, width: "500px", height: "300px", adapter: "highcharts" %>
+
+<hr>
+
+<h2>Chart.js</h2>
+<%= pie_chart @char, width: "500px", height: "300px", adapter: "chartjs" %>
+
+<h2>Google Chart</h2>
+<%= pie_chart @char, width: "500px", height: "300px", adapter: "google" %>
+
+<h2>highcharts</h2>
+<%= pie_chart @char, width: "500px", height: "300px", adapter: "highcharts" %>
+
+<hr>
+
+<h2>Chart.js</h2>
+<%= column_chart @char, width: "500px", height: "300px", adapter: "chartjs" %>
+
+<h2>Google Chart</h2>
+<%= column_chart @char, width: "500px", height: "300px", adapter: "google" %>
+
+<h2>highcharts</h2>
+<%= column_chart @char, width: "500px", height: "300px", adapter: "highcharts" %>
+
+<hr>
